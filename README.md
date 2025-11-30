@@ -36,7 +36,7 @@ A full-stack AI-powered application that generates comprehensive PDF ebooks on a
 ### 1. Clone and Setup
 
 ```bash
-cd "/run/media/lulu/New Volume/Code/Capstone Project- Book Writer/Ag_3"
+cd "Ag_3"
 ```
 
 ### 2. Backend Setup
