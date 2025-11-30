@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Ebook Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>AI Ebook Generator</h1>
+        <p class="subtitle">Enter a topic and your Gemini API Key to generate a full PDF ebook.</p>
+
+        <div class="input-group">
+            <label for="topic">Topic</label>
+            <input type="text" id="topic" placeholder="e.g., Learn Python from Scratch">
+        </div>
+
+
+
+        <button id="generateBtn" onclick="startGeneration()">Generate Ebook</button>
+
+        <div id="status" class="status-container hidden">
+            <h3>Progress</h3>
+            <ul id="steps">
+                <li id="step-search" class="pending">Step 1: Web Search</li>
+                <li id="step-analyze" class="pending">Step 2: Data Analysis</li>
+                <li id="step-image" class="pending">Step 3: Image Generation</li>
+                <li id="step-format" class="pending">Step 4: Formatting</li>
+                <li id="step-pdf" class="pending">Step 5: PDF Creation</li>
+                <li id="step-verify" class="pending">Step 6: Verification</li>
+            </ul>
+            <div id="logs" class="logs"></div>
+        </div>
+
+        <div id="result" class="result-container hidden">
+            <h3>Success!</h3>
+            <p>Your ebook is ready.</p>
+            <a id="downloadLink" href="#" target="_blank" class="download-btn">Download PDF</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

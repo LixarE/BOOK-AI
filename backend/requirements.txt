@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+google-generativeai
+duckduckgo-search
+beautifulsoup4
+requests
+weasyprint
+pydantic
+python-dotenv
+markdown
+mcp

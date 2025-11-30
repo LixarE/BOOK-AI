@@ -1,0 +1,23 @@
+{
+    "mcpServers": {
+        "EbookGenerator": {
+            "command": "python",
+            "args": [
+                "-m",
+                "backend.mcp_server"
+            ],
+            "env": {
+                "GEMINI_API_KEY": "AIzaSyCJrJz7nLt3-2K38vqgTCM8rHDR7w86noE"
+            }
+        },
+        "TestSprite": {
+            "command": "npx",
+            "args": [
+                "@testsprite/testsprite-mcp@latest"
+            ],
+            "env": {
+                "API_KEY": "sk-user-lAwjygBxrji-ap6763GRpPGn2D2hgQfAQd3wzSdynHuerjbhxZeyg4Un56jWKlcncUuO6vjKi6QVPro-HyOSQYr1kbjS4Hoacp5zHPfRdInBRnf69QEi0-PRrYw_b8rGFoE"
+            }
+        }
+    }
+}
